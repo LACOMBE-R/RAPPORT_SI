@@ -74,3 +74,14 @@ Puis pour Monster, Inc:
 ![Création du devis 2](/Devis2.gif)
 
 Pour transmettre ces devis aux clients je peux les imprimer ou les exporter:
+
+{{< Odoo_Report >}}
+
+Si ce devis est validé par le client, je peux en faire un bon de commande:
+
+![Bon de commande](/DevisToBonDeCommande.gif)
+
+Une nouvelle ligne apparaît dans le tableau de commande avec la mention "à facturer":  
+***(Suite à une petite erreur, le numéro de commande à changé, mais rien de grave !)***
+
+![Création de facture](/Facturation.gif)
