@@ -10,7 +10,7 @@ description = "Sections achat et vente"
 
 [Site](https://tp_odoo.rioc.fr)
 
-Login : <IRPAUC05@example.com>  
+Login : <I4PAUC05@example.com>  
 mdp : I4PAUC05
 
 ## Introduction
@@ -31,7 +31,7 @@ Pour vendre mes canards, j'ai acheté un **entrepôt**, je dois maintenant l'ajo
 Aprés s'être rendu sur le panneau **inventaire**, on crée un entrepôt:  
 ![Création d'un entrepot](/Entrepot.gif)
 
-Pour m'y retrouver un peu mieux au milieu de tout ces canards, je crée un emplacement:  
+Pour m'y retrouver un peu mieux au milieu de tout ces canards, je crée un emplacement "Allée A":  
 ![Création d'un emplacement](/Emplacement.gif)
 
 ### 1.2. Créer deux clients
@@ -62,7 +62,7 @@ Après une rapide étude de marché (et parce que c'est classe) mon premier prod
 
 ## 2. Processus d'achat vente
 
-## 2.1. Création de devis
+### 2.1. Création de devis
 
 Maintenant que ma boutique est en ligne, mes première commande me sont parvenues.
 Je dois maintenant créer des devis. D'abord pour Stark Industries:
@@ -75,13 +75,52 @@ Puis pour Monster, Inc:
 
 Pour transmettre ces devis aux clients je peux les imprimer ou les exporter:
 
-{{< Odoo_Report >}}
+{{< pdf_viewer file="Odoo Report Monster, Inc" >}}
 
 Si ce devis est validé par le client, je peux en faire un bon de commande:
 
 ![Bon de commande](/DevisToBonDeCommande.gif)
 
 Une nouvelle ligne apparaît dans le tableau de commande avec la mention "à facturer":  
-***(Suite à une petite erreur, le numéro de commande à changé, mais rien de grave !)***
 
 ![Création de facture](/Facturation.gif)
+
+On voit la mention "entièrement facturé" apparaître dans le tableau des commandes :
+
+![Entièrement facturé](/EntièrementFacturé.gif)
+
+### 2.2. Créer une demande de prix et définir l’emplacement de la réception de la livraison fournisseur
+
+Voila que je suis bientôt à court de canards ! Je vais donc déposer une demande de prix chez mon fournisseur, je défini l'adresse de livraison à l'entrepôt DuckShop créé plus tôt:  
+
+![Demande de prix](/DemandeDePrix.gif)
+
+Réponse positive de DuckMaker ! Je peux confirmer la commande:
+
+![Demande de prix en bon de commande](/DemandeDePrixToBonDeCommande.gif)
+
+On constate que le bon de commande est disponible:
+
+{{< pdf_viewer file="Odoo Report Commande DuckMaker" >}}
+
+### 2.3. Effectuer la réception
+
+Ça y est ! Le colis est arrivé ! Je saisi la réception:
+
+![Réception](/Reception.gif)
+
+On va maintenant consulter les stocks dans les récépetions de l'entrepôt DuckShop:
+
+![Réception](/Stock.gif)
+
+### 2.4. Effectuer un transfert de stock
+
+Je souhaite maintenant déplacer les canards livrés de l'emplacement "Stock" à l'Allée A:
+
+![Transfert à faire](/TransfertAFaire.gif)
+
+Fioouuu...Je viens de déplacer les 8 palettes ! Je peux maintenant valider le transfert:
+
+![Valider le transfert](/TransfertValider.gif)
+
+<!-- A MODIFIER DESSUS>
