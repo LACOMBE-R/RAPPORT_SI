@@ -123,4 +123,29 @@ Fioouuu...Je viens de déplacer les 8 palettes ! Je peux maintenant valider le t
 
 ![Valider le transfert](/TransfertValider.gif)
 
-<!-- A MODIFIER DESSUS>
+### 2.5. Effectuer les livraisons clients - Factures
+
+Je peux enfin vendre répondre aux commandes de mes clients ! J'édite pour cela une facture.  
+Pour Stark Industries, par exemple :
+
+![Editer une facture](/FactureStark.gif)
+
+Le client est satisfait, on peut à présent valider la facture et déclarer le paiement.
+
+![Déclarer paiement](/FactureStarkPaiement.gif)
+
+### 2.6. Effectuer les livraisons clients - Livraison Client
+
+On procède finalement livrer :
+
+![Livrer](/Livraison.gif)
+
+### 2.7. Vérifier la mise à jour du stock
+
+Puis on vérifie l'état des stocks :
+
+![Checker les stocks](/LivraisonCheckStock.gif)
+
+## Conclusion
+
+Pour résumer, dans ce TP nous avons modifié les réglages de notre ERP afin d'y ajouter tout les acteurs et emplacements nécessaire à une transaction, du fournisseur, en passant par notre entrepôt, jusqu'au client. Nous avons également édité des documents comme des devis et factures de manière automatique. Durant le prochain TP, nous verrons comment étendre nos compétence en passant à la fabrication !
