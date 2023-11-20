@@ -3,6 +3,7 @@ author = "Rémi Lacombe"
 title = "TP1"
 date = "2023-10-25"
 description = "Sections achat et vente"
+weight = 1
 +++
 
 ## 0. Introduction
