@@ -6,13 +6,6 @@ description = "Sections achat et vente"
 
 +++
 
-## Lien du serveur Odoo
-
-[Site](https://tp_odoo.rioc.fr)
-
-Login : <I4PAUC05@example.com>  
-mdp : I4PAUC05
-
 ## 0. Introduction
 
 <!-- A modifier -->
