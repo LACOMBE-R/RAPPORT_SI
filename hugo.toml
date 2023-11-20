@@ -26,5 +26,3 @@ title = "Rémi Lacombe"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-      
-custom_css = ["css/custom.css"]
