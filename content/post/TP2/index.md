@@ -3,7 +3,6 @@ author = "Rémi Lacombe"
 title = "TP2"
 date = "2019-03-09"
 description = "Sections fabrication et inventaire"
-
 +++
 
 Sections fabrication et inventaire.
@@ -11,11 +10,11 @@ Sections fabrication et inventaire.
 
 ## 1. Introduction
 
-Cela fais quelques mois que mon commerce fonctionne, j'ai vendu des milliers de canards et le temps devient un peu long. Il est temps de commencer un nouveau projet : **l'internalisation de la fabrication de canards en plastique !**  
+Cela fait quelques mois que mon commerce fonctionne, j'ai vendu des milliers de canards et le temps devient un peu long. Il est temps de commencer un nouveau projet : **l'internalisation de la fabrication de canards en plastique !**  
 **C'est parti !**
 
-L'un de mes gros clients à une forte demande en canard de couleur verte, ce sera donc le premier produit que je fabriquerai !  
-J'établi pour cela une nomenclature des opérations :  
+L'un de mes gros clients a une forte demande en canards de couleur verte, ce sera donc le premier produit que je fabriquerai !  
+J'établis pour cela une nomenclature des opérations :  
 
 {{< diag >}}
 
@@ -35,11 +34,11 @@ On créera les opérations dans la partie 2.4.
 
 ### 2.3. Création des articles
 
-Je crée les matières premières (A1,A2,A3 et A4), le sous-produit en sortie de moulage(SP1) ainsi que le produit fini (PF).
+Je crée les matières premières (A1, A2, A3 et A4), le sous-produit en sortie de moulage (SP1) ainsi que le produit fini (PF).
 
 ![Produits fabrication](././ProduitsFabrication.gif)
 
-### 2.4. Créations des nomenclatures
+### 2.4. Création des nomenclatures
 
 Les produits créés, il faut à présent indiquer les nomenclatures :
 On commence par la nomenclature du produit **"Canard sortie de moulage"**.  
@@ -47,7 +46,7 @@ On indique qu'il faut 0.2 unités de granule de caoutchouc. On spécifie égalem
 
 ![Nomenclature moulage](././NomMoulage.gif)
 
-De même pour le produit fini **"Canard Vert"**. On saisi la nomenclature en ajoutant le produit **"Canard sortie de moulage"** ainsi que tout les types de peinture et leurs quantités respectives. On crée une opération **"Peinture"** dans le poste de charge **"Station de peinture"**
+De même pour le produit fini **"Canard Vert"**. On saisit la nomenclature en ajoutant le produit **"Canard sortie de moulage"** ainsi que tous les types de peinture et leurs quantités respectives. On crée une opération **"Peinture"** dans le poste de charge **"Station de peinture"**
 
 ![Nomenclature peinture](././NomPeinture.gif)
 
@@ -72,11 +71,11 @@ On crée un nouveau produit pour la peinture rouge. Il faut également ajouter u
 
 Une fois que cela est fait, on peut enfin rentrer les commandes :
 
-StarkIndustries commandent 50 canards verts :
+Stark Industries commandent 50 canards verts :
 
 ![Order Vert](././OrderVert.gif)
 
-Et Monster .inc commandent 100 canards rouge :
+Et Monster .inc commandent 100 canards rouges :
 
 ![Order Rouge](././OrderRouge.gif)
 
@@ -88,7 +87,7 @@ Je crée, avant tout l'ordre de fabrication :
 ![Ordre Fab](././OrderFab.gif)
 
 On s'aperçoit que l'ensemble des matières premières et sous-produits apparaissent en **"Non disponible"**
-Je vais donc commander les matériaux nécessaires. Par soucis de facilité, j'en commande 200 de chaque, en suivant la démarche vue en TP1.
+Je vais donc commander les matériaux nécessaires. Par souci de facilité, j'en commande 200 de chaque, en suivant la démarche vue en TP1.
 
 ![Matières Premières](././RawMaterials.gif)
 
@@ -102,7 +101,7 @@ On peut enfin lancer la fabrication du sous-produit :
 
 ![Prod Sous-Produit](././ProdSousProduit.gif)
 
-Avant de lancer les ordres sur le produit fini, on valide l'ordre de fabrication du sous produit :
+Avant de lancer les ordres sur le produit fini, on valide l'ordre de fabrication du sous-produit :
 
 ![ValidOrderFabSousProduit](././ValidOrderFabSousProduit.gif)
 
@@ -110,24 +109,24 @@ Finalement, on lance la fabrication des canards verts !
 
 ![Prod Produit](././ProdProduit.gif)
 
-On valide l'ordre de fabrication comme précédemment, et on constate que notre stock a bel bien été incrementé de 50 canards verts !
+On valide l'ordre de fabrication comme précédemment, et on constate que notre stock a bel et bien été incrémenté de 50 canards verts !
 
 ![Inventory Check](././InventoryCheck.gif)
 
 ### 2.9 Livrer la commande client
 
-**Fiooouu, quelle aventure !** On peux enfin livrer la commande au client :
+**Fiooouu, quelle aventure !** On peut enfin livrer la commande au client :
 
 ![Delivery](././Delivery.gif)
 
 ## 2. Conclusion
 
-Pour conclure, dans ce deuxième TP, j'aurais appris :
+Pour conclure, dans ce deuxième TP, j'ai appris :
 
->- Créer de **postes de travail** et d'**opération** (ou **gammes**)
+>- Créer des **postes de travail** et d'**opération** (ou **gammes**)
 >- Créer des **nomenclatures de production** et les **sous-produits** et **matières premières** associés
 >- Créer des **variantes de produits** et les **nomenclatures** modifiées
 >- Utiliser et mettre en place les **ordres de fabrication et de travail**
 
 Durant ces deux TP, j'ai pu aborder et mettre en place la plupart des postes de la **supply chain**.  
-A travers la création cette fausse entreprise, je me suis amusé, je dois l'avouer 😁, mais j'ai surtout découvert un outils puissant et polyvalent qui, je n'en doute pas, me permettra d'appréhender un peu mieux la gestion de production dans mon futur métier !
+À travers la création de cette fausse entreprise, je me suis amusé, je dois l'avouer 😁, mais j'ai surtout découvert un outil puissant et polyvalent qui, je n'en doute pas, me permettra d'appréhender un peu mieux la gestion de production dans mon futur métier !
