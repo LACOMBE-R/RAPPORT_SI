@@ -1,7 +1,7 @@
 +++
 author = "Rémi Lacombe"
 title = "TP2"
-date = "2023-11-10"
+date = "2023-10-11"
 description = "Sections fabrication et inventaire"
 +++
 
