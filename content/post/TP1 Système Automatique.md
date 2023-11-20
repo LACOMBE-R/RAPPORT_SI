@@ -6,6 +6,8 @@ description = "Compte-rendu du TP1"
 
 +++
 
+<!-- MDP_ControlExpert : esieeamiens -->
+
 ## Introduction
 
 L'objectif de ces TP est de concevoir la partie contrôle de la Zone 3 de la mini-usine.
@@ -59,11 +61,9 @@ On initialise d'abords les variables d'entrées/sorties du bloc :
 
 ![PREL_AEROTHERME_IO](/SA/PREL_AEROTHERME_IO.PNG)
 
-Puis on crée le LADDER :
+Puis on crée le ensuite le bloc FBD d'un aerotherme :
 
-{{< pdf_viewer file="SA/LD_AEROTHERME" >}}
-
->- On retrouve le même type de ligne que pour le DFB_ACTIONNEUR
+{{< pdf_viewer file="SA/FBD_AEROTHERME" >}}
 
 ### 5.3 Préliminaire général
 
@@ -74,3 +74,39 @@ Ici, l'objectif est de lier les variables élémentaires créées plus tôt aux 
 Voici le LADDER résultant:
 
 {{< pdf_viewer file="SA/LD_PREL" >}}
+
+## 6. Gestion des sorties : POSTERIEUR(section DFB)
+
+J'ajoute un bloc DFB dans le préliminaire pour "calculer" le défaut électrique :
+
+{{< pdf_viewer file="SA/LD_PREL+CONV" >}}
+
+On peux enfin débuter le postérieur.
+
+On crée d'abord un bloc LADDER pour le postérieur d'un actionneur. On déclare les variables d'entrées/sorties nécessaires :
+
+![POST_ACTIONNEUR_IO](/SA/POST_ACTIONNEUR_IO.PNG)
+
+Et on établi le programme :
+
+{{< pdf_viewer file="SA/LD_POST_ACTIONNEUR" >}}
+
+On peut finalement créer le programme POST dans le MAST :
+
+{{< pdf_viewer file="SA/LD_POST" >}}
+
+Avant de pouvoir tester, il faut créer un programme des gestion des mode de marche. Ce dernier va permettre d'adapter le fonctionnement suivant le mode selectionné. On y ajoutera également le contrôle des voyants de la colonne.
+
+{{< pdf_viewer file="SA/LD_GMM" >}}
+
+On doit à présent maper les entrées/sorties physique sur les variables correspondantes :
+
+![IO_ADRESSES](/SA/IO_ADRESSES.PNG)
+
+On peut également créer un programme VOYANTS qui prendra en charge l'affichage de l'ensemble des défauts :
+
+{{< pdf_viewer file="SA/LD_VOYANTS" >}}
+
+## 7. Séquentiel
+
+### 7.1. Grafcet de conduite(section DFC)

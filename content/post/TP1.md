@@ -17,7 +17,7 @@ mdp : I4PAUC05
 
 <!-- A modifier -->
 Ce matin, au réveil, une idée **incroyable** m'est venue, je vais tout plaquer et vendre des **canards en plastique** sur internet !  
-Bien sûr...pour passer de l'idée, il me faut un bon outil de gestion.  
+Bien sûr...pour passer de l'idée à la réalité, il me faut un bon outil de gestion.  
 J'ai choisi Odoo car Open-Source et facile d'utilisation !
 L'objectif de cette première partie est d'établir un processus d'achat vente.
 **C'est parti !**
