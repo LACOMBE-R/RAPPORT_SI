@@ -13,7 +13,7 @@ description = "Sections achat et vente"
 Login : <I4PAUC05@example.com>  
 mdp : I4PAUC05
 
-## Introduction
+## 0. Introduction
 
 <!-- A modifier -->
 Ce matin, au réveil, une idée **incroyable** m'est venue, je vais tout plaquer et vendre des **canards en plastique** sur internet !  
@@ -146,6 +146,12 @@ Puis on vérifie l'état des stocks :
 
 ![Checker les stocks](/LivraisonCheckStock.gif)
 
-## Conclusion
+## 3. Conclusion
 
-Pour résumer, dans ce TP nous avons modifié les réglages de notre ERP afin d'y ajouter tout les acteurs et emplacements nécessaire à une transaction, du fournisseur, en passant par notre entrepôt, jusqu'au client. Nous avons également édité des documents comme des devis et factures de manière automatique. Durant le prochain TP, nous verrons comment étendre nos compétence en passant à la fabrication !
+Pour résumer, dans ce TP nous avons :
+
+>- Modifié les réglages de notre ERP afin d'y ajouter tout les acteurs et emplacements nécessaire à une transaction, du **fournisseur**, en passant par notre **entrepôt**, jusqu'aux **clients**
+>- Edité des documents comme des **devis** et **factures** de manière automatique
+>- Effectué des **commandes**, **transferts de stock** et **livraisons**
+
+**Durant le prochain TP, nous verrons comment étendre nos compétence en passant à la fabrication !**

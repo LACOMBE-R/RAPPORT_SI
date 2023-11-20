@@ -11,10 +11,10 @@ Sections fabrication et inventaire.
 
 ## 1. Introduction
 
-Cela fais quelques mois que ma boutique en ligne fonctionne, j'ai vendu des milliers de canards et le temps devient un peu long. Il est temps de commencer un nouveau projet : **l'internalisation de la fabrication de canards en plastique !**  
+Cela fais quelques mois que mon commerce fonctionne, j'ai vendu des milliers de canards et le temps devient un peu long. Il est temps de commencer un nouveau projet : **l'internalisation de la fabrication de canards en plastique !**  
 **C'est parti !**
 
-L'un de mes gros clients à une forte de demande en canard de couleur verte, ce sera donc le premier produit que je fabriquerai !  
+L'un de mes gros clients à une forte demande en canard de couleur verte, ce sera donc le premier produit que je fabriquerai !  
 J'établi pour cela une nomenclature des opérations :  
 
 {{< diag >}}
@@ -81,3 +81,53 @@ Et Monster .inc commandent 100 canards rouge :
 ![Order Rouge](/OrderRouge.gif)
 
 ### 2.7. Lancer un ordre de fabrication
+
+On va se concentrer ici sur la commande de Stark Industries : **50 canards verts**
+Je crée, avant tout l'ordre de fabrication :
+
+![Ordre Fab](/OrderFab.gif)
+
+On s'aperçoit que l'ensemble des matières premières et sous-produits apparaissent en **"Non disponible"**
+Je vais donc commander les matériaux nécessaires. Par soucis de facilité, j'en commande 200 de chaque, en suivant la démarche vue en TP1.
+
+![Matières Premières](/RawMaterials.gif)
+
+Si je retourne sur mon ordre de fabrication initial, je vois qu'il manque encore le sous-produit **"Canard sortie de moulage"**, je vais donc lancer un autre ordre de fabrication pour en produire 50.
+
+![Ordre Fab Sous-Produit](/OrderFabSousProduit.gif)
+
+### 2.8. Créer des ordres de travail
+
+On peut enfin lancer la fabrication du sous-produit :
+
+![Prod Sous-Produit](/ProdSousProduit.gif)
+
+Avant de lancer les ordres sur le produit fini, on valide l'ordre de fabrication du sous produit :
+
+![ValidOrderFabSousProduit](/ValidOrderFabSousProduit.gif)
+
+Finalement, on lance la fabrication des canards verts !
+
+![Prod Produit](/ProdProduit.gif)
+
+On valide l'ordre de fabrication comme précédemment, et on constate que notre stock a bel bien été incrementé de 50 canards verts !
+
+![Inventory Check](/InventoryCheck.gif)
+
+### 2.9 Livrer la commande client
+
+**Fiooouu, quelle aventure !** On peux enfin livrer la commande au client :
+
+![Delivery](/Delivery.gif)
+
+## 2. Conclusion
+
+Pour conclure, dans ce deuxième TP, j'aurais appris :
+
+>- Créer de **postes de travail** et d'**opération** (ou **gammes**)
+>- Créer des **nomenclatures de production** et les **sous-produits** et **matières premières** associés
+>- Créer des **variantes de produits** et les **nomenclatures** modifiées
+>- Utiliser et mettre en place les **ordres de fabrication et de travail**
+
+Durant ces deux TP, j'ai pu aborder et mettre en place la plupart des postes de la **supply chain**.  
+A travers la création cette fausse entreprise, je me suis amusé, je dois l'avouer 😁, mais j'ai surtout découvert un outils puissant et polyvalent qui, je n'en doute pas, me permettra d'appréhender un peu mieux la gestion de production dans mon futur métier !
