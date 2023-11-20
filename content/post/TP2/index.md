@@ -119,6 +119,10 @@ On valide l'ordre de fabrication comme précédemment, et on constate que notre 
 
 ![Delivery](././Delivery.gif)
 
+A la réception, le client avait l'air satisfait !
+
+![Tony](././Tony.jpg)
+
 ## 2. Conclusion
 
 Pour conclure, dans ce deuxième TP, j'ai appris :
