@@ -3,7 +3,7 @@ author = "Rémi Lacombe"
 title = "TP2"
 date = "2023-11-10"
 description = "Sections fabrication et inventaire"
-weight = 3
+weight = -2
 +++
 
 Sections fabrication et inventaire.
