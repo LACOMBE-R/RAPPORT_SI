@@ -121,7 +121,7 @@ On valide l'ordre de fabrication comme précédemment, et on constate que notre 
 
 A la réception, le client avait l'air satisfait !
 
-![Tony](././tony.jpg)
+![Tony](././tonysducks.jpg)
 
 ## 2. Conclusion
 
