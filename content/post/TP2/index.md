@@ -125,7 +125,7 @@ A la réception, le client avait l'air satisfait !
 
 ## 2. Conclusion
 
-Pour conclure, dans ce deuxième TP, j'ai appris :
+Pour conclure, dans ce deuxième TP, j'ai appris a :
 
 >- Créer des **postes de travail** et d'**opération** (ou **gammes**)
 >- Créer des **nomenclatures de production** et les **sous-produits** et **matières premières** associés
