@@ -25,7 +25,7 @@ J'établi pour cela une nomenclature des opérations :
 
 Comme montré plus haut, j'ai identifié deux postes de charge. Je dois maintenant les créer dans mon ERP :
 
-![Poste de moulage](RAPPORT_SI/PosteDeTravail.gif)
+![Poste de moulage](././PosteDeTravail.gif)
 
 On fait de même pour le poste de peinture.
 
@@ -37,7 +37,7 @@ On créera les opérations dans la partie 2.4.
 
 Je crée les matières premières (A1,A2,A3 et A4), le sous-produit en sortie de moulage(SP1) ainsi que le produit fini (PF).
 
-![Produits fabrication](RAPPORT_SI/ProduitsFabrication.gif)
+![Produits fabrication](/ProduitsFabrication.gif)
 
 ### 2.4. Créations des nomenclatures
 
@@ -45,11 +45,11 @@ Les produits créés, il faut à présent indiquer les nomenclatures :
 On commence par la nomenclature du produit **"Canard sortie de moulage"**.  
 On indique qu'il faut 0.2 unités de granule de caoutchouc. On spécifie également l'opération **"Moulage"** en précisant le poste de charge **"Station de moulage"**
 
-![Nomenclature moulage](RAPPORT_SI/NomMoulage.gif)
+![Nomenclature moulage](/NomMoulage.gif)
 
 De même pour le produit fini **"Canard Vert"**. On saisi la nomenclature en ajoutant le produit **"Canard sortie de moulage"** ainsi que tout les types de peinture et leurs quantités respectives. On crée une opération **"Peinture"** dans le poste de charge **"Station de peinture"**
 
-![Nomenclature peinture](RAPPORT_SI/NomPeinture.gif)
+![Nomenclature peinture](/NomPeinture.gif)
 
 ### 2.5. Rapports Structure nomenclature et coût
 
@@ -64,17 +64,17 @@ Après modification, voici le rapport de nomenclature du produit **"Canard Vert"
 Un client me réclame des canards rouges !
 On renomme le produit **"Canard Vert"** en **"Canard Uni"** et on y ajoute deux variantes.
 
-![Variantes](RAPPORT_SI/Variantes.gif)
+![Variantes](/Variantes.gif)
 
 On crée un nouveau produit pour la peinture rouge. Il faut également ajouter une nomenclature pour la variante rouge. Voici les 3 nomenclatures ainsi créées.
 
-![NewNom](RAPPORT_SI/NewNom.gif)
+![NewNom](/NewNom.gif)
 
 Une fois que cela est fait, on peut enfin rentrer les commandes :
 
 StarkIndustries commandent 50 canards verts :
 
-![Order Vert](RAPPORT_SI/OrderVert.gif)
+![Order Vert](/OrderVert.gif)
 
 Et Monster .inc commandent 100 canards rouge :
 
